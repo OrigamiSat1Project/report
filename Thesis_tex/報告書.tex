@@ -1,0 +1,108 @@
+\documentclass[11pt]{ujreport}
+
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+\usepackage{ascmac}
+%\usepackage{graphicx}
+\usepackage[dvipdfmx]{graphicx}
+\renewcommand{\bibname}{参考文献}
+\newcommand{\acknowledgmentname}{謝辞}
+\usepackage{multirow}
+\usepackage{ylab_thesis}
+\usepackage{fancyhdr} %ヘッダー
+\usepackage{here} %画像位置強制
+\usepackage{url}
+\usepackage{geometry}
+\geometry{left=30mm,right=30mm,top=30mm,bottom=30mm}
+
+% 数式番号に章番号を追加
+\makeatletter
+\@addtoreset{equation}{chapter}
+\def\theequation{\thechapter.\arabic{equation}}
+\makeatother
+
+
+\begin{document}
+
+% 表紙
+\include{title}
+% \jmaketitle% 表紙（日本語）、不要ならコメントアウト
+% \emaketitle		% 表紙（英語）、不要ならコメントアウト
+
+\newpage
+\thispagestyle{empty}
+　\\
+\newpage
+
+% \include{00_abstract}	% アブストラクト。要独自コマンド、include先参照のこと
+\pagestyle{empty}
+\tableofcontents	% 目次
+%\listoffigures		% 表目次
+%\listoftables		% 図目次
+
+%  \pagestyle{fancy}
+%\lhead[偶数ページの引数]{奇数ページの引数}: ヘッダ左側
+%\chead[偶数ページの引数]{奇数ページの引数}: ヘッダ中央
+%\rhead[偶数ページの引数]{奇数ページの引数}: ヘッダ右側
+%\lfoot[偶数ページの引数]{奇数ページの引数}: フッタ左側
+%\cfoot[偶数ページの引数]{奇数ページの引数}: フッタ中央
+%rfoot[偶数ページの引数]{奇数ページの引数}: フッタ右側
+
+%\thepage: 書かれたページ
+%\leftmark: \markbothの引数を受け取る
+%\rightmark: \markrightの引数を受け取る
+
+
+%\lhead{\rightmark}
+%\rhead[\leftmark]
+%\cfoot{\thepage}
+
+
+\pagestyle{fancy}
+\lhead{\rightmark}
+%\rhead[\leftmark]
+\cfoot{\thepage}
+\setlength{\headheight}{16pt}
+%\renewcommand{\chaptermark}[1]{\rightmark{第\ \normalfont\thechapter\ 章~#1}{}}
+\renewcommand{\sectionmark}[1]{\markboth{\thesection #1}{第\ \normalfont\thechapter\ 章~}}
+
+\pagenumbering{arabic}
+\include{01}	% 1章　背景および衛星の概要
+\include{02}	% 2章 ミッション定義
+\include{03}	% 3章　サブシステム開発の経緯（設計・試験）
+\include{04}	% 4章　統合試験
+\include{05}	% 5章　安全審査
+\include{06}    % 6章 引渡し
+\include{07}    % 7章 運用と不具合解析
+\include{08}    % 8章 革新的衛星技術実証プログラムへの参加
+\include{09}    % 9章 国際周波数調整
+\include{10}    % 10章 内閣府宇宙活動法
+\include{11}    % 11章 物体登録
+\include{12}    % 12章 プロジェクトマネジメント
+\include{13}    % 13章 付録
+% ページ調整--------
+% \newpage
+% \thispagestyle{empty}
+% 　\\
+% \newpage
+% ------------------
+
+
+%-------------------------------
+% \addcontentsline{toc}{chapter}{参考文献}
+% \bibliographystyle{junsrt}    % スタイル(bstファイル名)を記述する．jplain,plainはpLaTeXに標準で付いている．
+% %\nocite{*}                 % 本文中で参照していない文献をリストに載せたい場合に用いる．*を指定すると全て載せる．通常使わないのでコメントアウトしている．
+% \bibliography{Bibliography}    % bibファイル名を指定する．拡張子は除く．
+%-------------------------------
+\pagestyle{plain}
+\include{91_bibliography}	% 参考文献。要独自コマンド、include先参照のこと
+
+%\pagestyle{fancy}
+%\rhead{\leftmark}
+%\lhead{\rightmark}
+
+\appendix
+\include{92_appendix}		% 付録
+\include{90_acknowledgment}	% 謝辞
+
+\end{document}
