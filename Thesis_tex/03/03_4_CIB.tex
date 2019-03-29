@@ -1,0 +1,61 @@
+%文責：中塚・黒崎
+
+\subsection{CIB}
+\subsubsection{基本設計思想（中塚）}
+RXPIC，TXPICは神だよ．外部からはリセットを基本しないよ．週1回だけのリセットだけだよ．その他あれば．
+
+\subsubsection{プログラム概要（黒崎）}
+\textbf{CIB全体}
+\begin{itemize}
+	\item 初期運用やってるよ．詳細は後述．初期運用専用の節を作成してしまってもいいのでは．
+	\item 初期運用モードと通常運用モード違い
+\end{itemize}
+
+\textbf{RXPIC役割}
+\begin{itemize}
+	\item モード切替判断．詳細は後述．モード切替専用の節を作成してしまってもいいのでは．
+	\item アップリンク待機
+\end{itemize}
+
+\textbf{TXPIC役割}
+\begin{itemize}
+	\item CW HKデータ垂れ流し（HKデータダウンリンクの
+	中身専用（CIB/OBC共通）の節を作成してしまってもいいのでは．）
+	\item 指示があればFM HKデータダウンリンク（HKデータダウンリンクの
+	中身専用（CIB/OBC共通）の節を作成してしまってもいいのでは．）
+	\item CWFMデータダウンリンク
+\end{itemize}
+
+\subsubsection{RXPIC詳細（3月中に間に合えば黒崎．無理なら中塚）}
+ソフトの中身やswitch文の中をそれぞれ詳しく
+
+\subsubsection{TXPIC詳細（中塚）}
+ソフトの中身やswitch文の中をそれぞれ詳しく
+
+\subsubsection{デバックや機能確認に関して（中塚・黒崎）}
+\begin{itemize}
+	\item 振動試験等の前後には機能確認しよう
+	\item EMFMそれぞれでちゃんんと機能確認しよう
+	\item FMは組み立てする度に機能確認しよう
+	\item どんな機能確認をしていたか
+	\item その他注意点等
+\end{itemize}
+
+\subsubsection{コメントや次回への改善点（中塚・黒崎）}
+\hspace{2ex}
+\textbf{CIB全体}
+\begin{itemize}
+	\item aaaa
+\end{itemize}
+
+\hspace{2ex}
+\textbf{RXPIC}
+\begin{itemize}
+	\item aaaa
+\end{itemize}
+
+\hspace{2ex}
+\textbf{TXPIC}
+\begin{itemize}
+	\item aaaa
+\end{itemize}
