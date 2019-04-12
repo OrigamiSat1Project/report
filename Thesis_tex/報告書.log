@@ -1,29 +1,30 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180901-2.6 (utf8.uptex) (TeX Live 2018/W32TeX) (preloaded format=uplatex 2018.12.11)  15 MAR 2019 18:23
+This is e-upTeX, Version 3.14159265-p3.8.0-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018/W32TeX) (preloaded format=uplatex 2018.4.2)  12 APR 2019 20:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**�񍐏�.tex
-(./�񍐏�.tex
-pLaTeX2e <2018-12-01u02> (based on LaTeX2e <2018-12-01>)
+**報告書.tex
+(./報告書.tex
+pLaTeX2e <2018/03/09u02>+1 (based on LaTeX2e <2017-04-15>)
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (c:/w32tex/share/texmf-dist/tex/uplatex/base/ujreport.cls
-Document Class: ujreport 2018/10/25 v1.8a-u00 Standard upLaTeX class
-\c@@paper=\count83
+Document Class: ujreport 2018/02/04 v1.7h-u00 Standard upLaTeX class
+\c@@paper=\count82
 (c:/w32tex/share/texmf-dist/tex/uplatex/base/ujsize11.clo
-File: ujsize11.clo 2018/10/25 v1.8a-u00 Standard upLaTeX file (size option)
+File: ujsize11.clo 2018/02/04 v1.7h-u00 Standard upLaTeX file (size option)
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 10.53629pt on input line 28.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 10.53629pt on input line 28.
 )
-\c@part=\count84
-\c@chapter=\count85
-\c@section=\count86
-\c@subsection=\count87
-\c@subsubsection=\count88
-\c@paragraph=\count89
-\c@subparagraph=\count90
-\c@figure=\count91
-\c@table=\count92
+\c@part=\count83
+\c@chapter=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\c@figure=\count90
+\c@table=\count91
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \symmincho=\mathgroup4
@@ -32,10 +33,10 @@ LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
 \toclineskip=\dimen118
 \@lnumwidth=\dimen119
 \bibindent=\dimen120
-\heisei=\count93
+\heisei=\count92
 )
 (c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2018/12/01 v2.17b AMS math features
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
@@ -54,30 +55,30 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count94
-LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count95
-\leftroot@=\count96
-LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count97
-\DOTSCASE@=\count98
-LaTeX Info: Redefining \ldots on input line 482.
-LaTeX Info: Redefining \dots on input line 485.
-LaTeX Info: Redefining \cdots on input line 606.
-\Mathstrutbox@=\box43
-\strutbox@=\box44
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box42
+\strutbox@=\box43
 \big@size=\dimen123
-LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count99
-\c@MaxMatrixCols=\count100
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
 \dotsspace@=\muskip10
-\c@parentequation=\count101
-\dspbrk@lvl=\count102
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
 \tag@help=\toks16
-\row@=\count103
-\column@=\count104
-\maxfields@=\count105
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
 \andhelp@=\toks17
 \eqnshift@=\dimen124
 \alignsep@=\dimen125
@@ -89,8 +90,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks19
-LaTeX Info: Redefining \[ on input line 2844.
-LaTeX Info: Redefining \] on input line 2845.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
 (c:/w32tex/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -118,20 +119,20 @@ Package: ascmac 2018/03/09 v2.0h ascmac wrapper (community edition)
 Package: tascmac 2018/03/09 v2.0h ascmac package (community edition) 
 \@savetbaselineshift=\dimen130
 \@saveybaselineshift=\dimen131
-\scb@x=\box45
-\scscb@x=\box46
+\scb@x=\box44
+\scscb@x=\box45
 \@bw=\dimen132
-\@nbox=\box47
-\@nbody=\box48
+\@nbox=\box46
+\@nbody=\box47
 \@scw=\dimen133
-\ascmac@hoboxa=\box49
-\ascmac@hoboxb=\box50
+\ascmac@hoboxa=\box48
+\ascmac@hoboxb=\box49
 \@itemh=\dimen134
 \@iboxpos=\toks20
-\@iboxstr=\box51
-\@bwsp=\box52
-\@@bwsp=\box53
-\@bcal=\count106
+\@iboxstr=\box50
+\@bwsp=\box51
+\@@bwsp=\box52
+\@bcal=\count105
 \shaderule=\dimen135
 ))
 (c:/w32tex/share/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -159,9 +160,9 @@ File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
 \Gin@req@width=\dimen137
 )
 (c:/w32tex/share/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip46
-\multirow@cntb=\count107
+\multirow@cntb=\count106
 \multirow@dima=\skip47
 \bigstrutjot=\dimen138
 ) (./ylab_thesis.sty) (c:/w32tex/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.s
@@ -181,21 +182,21 @@ s
 (c:/w32tex/share/texmf-dist/tex/latex/here/here.sty)
 (c:/w32tex/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count108
+\c@float@type=\count107
 \float@exts=\toks22
-\float@box=\box54
+\float@box=\box53
 \@float@everytoks=\toks23
-\@floatcapt=\box55
+\@floatcapt=\box54
 )
 (c:/w32tex/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (c:/w32tex/share/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2018/04/16 v5.8 Page Geometry
+Package: geometry 2018/03/24 v5.7 Page Geometry
 
 (c:/w32tex/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 (c:/w32tex/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
@@ -204,9 +205,9 @@ Package ifvtex Info: VTeX not detected.
 (c:/w32tex/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count109
-\Gm@cntv=\count110
-\c@Gm@tempcnt=\count111
+\Gm@cnth=\count108
+\Gm@cntv=\count109
+\c@Gm@tempcnt=\count110
 \Gm@bindingoffset=\dimen139
 \Gm@wd@mp=\dimen140
 \Gm@odd@mp=\dimen141
@@ -217,11 +218,11 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen146
 \Gm@dimlist=\toks24
 
-(c:/w32tex/share/texmf-dist/tex/latex/geometry/geometry.cfg)) (./�񍐏�.aux
+(c:/w32tex/share/texmf-dist/tex/latex/geometry/geometry.cfg)) (./報告書.aux
 (./title.aux) (./01.aux) (./02.aux) (./03.aux) (./04.aux) (./05.aux) (./06.aux)
 (./07.aux) (./08.aux) (./09.aux) (./10.aux) (./11.aux) (./12.aux) (./13.aux)
 (./91_bibliography.aux) (./92_appendix.aux) (./90_acknowledgment.aux))
-\openout1 = `�񍐏�.aux'.
+\openout1 = `報告書.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
@@ -326,7 +327,8 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 13.85594pt on input line 39.
- (./�񍐏�.toc
+
+(./報告書.toc
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10.95> not available
 (Font)              Font shape `JT2/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
@@ -343,10 +345,9 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 7.69775pt on input line 3.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 5.77332pt on input line 3.
-
-[2])
+ [2])
 \tf@toc=\write3
-\openout3 = `�񍐏�.toc'.
+\openout3 = `報告書.toc'.
 
  [3]
 \openout2 = `01.aux'.
@@ -370,35 +371,44 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 
  (./03.tex
 第 3 章
-(./03/03_1.tex) (./03/03_2.tex) (./03/03_3.tex) (./03/03_4.tex) (./03/03_5.tex)
-(./03/03_6.tex) (./03/03_7.tex) (./03/03_8.tex) (./03/03_9_1.tex
+(./03/03_1.tex) (./03/03_2.tex) (./03/03_3.tex) (./03/03_4.tex
+(./03/03_4_OBC.tex
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 2.
+(Font)              scaled to size 11.54663pt on input line 3.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 2.
+(Font)              scaled to size 11.54663pt on input line 3.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 2.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 2.
+(Font)              scaled to size 11.54663pt on input line 3.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 2.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 2.
-)
-(./03/03_9_2_1.tex) (./03/03_9_2_2.tex) (./03/03_9_2_3.tex) (./03/03_9_3_1.tex)
-(./03/03_9_3_2.tex) (./03/03_9_3_3.tex) (./03/03_9_3_4.tex) (./03/03_9_3_5.tex)
-) [3
+(Font)              scaled to size 11.54663pt on input line 3.
+)) (./03/03_5.tex) (./03/03_6.tex) (./03/03_7.tex)
+(./03/03_8.tex) (./03/03_9_1.tex) (./03/03_9_2_1.tex) (./03/03_9_2_2.tex)
+(./03/03_9_2_3.tex) (./03/03_9_3_1.tex) (./03/03_9_3_2.tex) (./03/03_9_3_3.tex)
+(./03/03_9_3_4.tex) (./03/03_9_3_5.tex)) [3
 
 
 
 ]
+
+LaTeX Font Warning: Font shape `JT2/mc/m/sl' undefined
+(Font)              using `JT2/mc/m/n' instead on input line 72.
+
+
+LaTeX Font Warning: Font shape `JY2/mc/m/sl' undefined
+(Font)              using `JY2/mc/m/n' instead on input line 72.
+
+[4]
 \openout2 = `04.aux'.
 
  (./04.tex
 第 4 章
 (./04/04_1.tex) (./04/04_2.tex) (./04/04_3.tex) (./04/04_4.tex) (./04/04_5.tex)
 (./04/04_6.tex) (./04/04_7.tex) (./04/04_8.tex) (./04/04_9.tex) (./04/04_10.tex
-)) [4
+)) [5
 
 
 
@@ -407,7 +417,7 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 
  (./05.tex
 第 5 章
-(./05/05_1.tex) (./05/05_2.tex) (./05/05_3.tex)) [5
+(./05/05_1.tex) (./05/05_2.tex) (./05/05_3.tex)) [6
 
 
 
@@ -416,7 +426,7 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 
  (./06.tex
 第 6 章
-(./06/06_1.tex) (./06/06_2.tex)) [6
+(./06/06_1.tex) (./06/06_2.tex)) [7
 
 
 
@@ -425,7 +435,7 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 
  (./07.tex
 第 7 章
-(./07/07_1.tex) (./07/07_2.tex) (./07/07_3.tex)) [7
+(./07/07_1.tex) (./07/07_2.tex) (./07/07_3.tex)) [8
 
 
 
@@ -434,7 +444,7 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 
  (./08.tex
 第 8 章
-(./08/08_1.tex)) [8
+(./08/08_1.tex)) [9
 
 
 
@@ -443,7 +453,7 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 
  (./09.tex
 第 9 章
-(./09/09_1.tex)) [9
+(./09/09_1.tex)) [10
 
 
 
@@ -452,7 +462,7 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 
  (./10.tex
 第 10 章
-(./10/10_1.tex)) [10
+(./10/10_1.tex)) [11
 
 
 
@@ -461,7 +471,7 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 
  (./11.tex
 第 11 章
-(./11/11_1.tex)) [11
+(./11/11_1.tex)) [12
 
 
 
@@ -470,7 +480,7 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 
  (./12.tex
 第 12 章
-(./12/12_1.tex) (./12/12_2.tex)) [12
+(./12/12_1.tex) (./12/12_2.tex)) [13
 
 
 
@@ -482,7 +492,7 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (./13/13_1.tex) (./13/13_2.tex) (./13/13_3.tex) (./13/13_4.tex) (./13/13_5.tex)
 (./13/13_6.tex) (./13/13_7.tex) (./13/13_8.tex) (./13/13_9.tex) (./13/13_10.tex
 ) (./13/13_11.tex) (./13/13_12.tex) (./13/13_13.tex) (./13/13_14.tex)
-(./13/13_15.tex) (./13/13_16.tex)) [13
+(./13/13_15.tex) (./13/13_16.tex)) [14
 
 
 
@@ -493,7 +503,7 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 
 LaTeX Warning: Empty `thebibliography' environment on input line 27.
 
-) [14
+) [15
 
 
 
@@ -503,23 +513,27 @@ LaTeX Warning: Empty `thebibliography' environment on input line 27.
  (./92_appendix.tex)
 \openout2 = `90_acknowledgment.aux'.
 
- (./90_acknowledgment.tex) [15
+ (./90_acknowledgment.tex) [16
 
 
 
 
 
-] (./�񍐏�.aux
+] (./報告書.aux
 (./title.aux) (./01.aux) (./02.aux) (./03.aux) (./04.aux) (./05.aux) (./06.aux)
 (./07.aux) (./08.aux) (./09.aux) (./10.aux) (./11.aux) (./12.aux) (./13.aux)
-(./91_bibliography.aux) (./92_appendix.aux) (./90_acknowledgment.aux)) ) 
-Here is how much of TeX's memory you used:
- 3012 strings out of 493213
- 36080 string characters out of 6145913
- 122196 words of memory out of 5000000
- 6646 multiletter control sequences out of 15000+600000
- 22800 words of font info for 100 fonts, out of 8000000 for 9000
- 929 hyphenation exceptions out of 8191
- 27i,7n,43p,257b,234s stack positions out of 5000i,500n,10000p,500000b,80000s
+(./91_bibliography.aux) (./92_appendix.aux) (./90_acknowledgment.aux))
 
-Output written on �񍐏�.dvi (19 pages, 24904 bytes).
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3023 strings out of 493600
+ 36214 string characters out of 6149784
+ 115159 words of memory out of 5000000
+ 6281 multiletter control sequences out of 15000+600000
+ 22975 words of font info for 100 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 28i,10n,43p,246b,297s stack positions out of 5000i,500n,10000p,500000b,80000s
+
+Output written on 報告書.dvi (20 pages, 26200 bytes).
