@@ -3,6 +3,7 @@
 本節では本衛星の電源系について述べる．
 
 本衛星の電源系の概要を
+
 に示す．
 
 電源系統図挿入
@@ -14,7 +15,7 @@
 	\item バッテリ
 	\item インヒビット回路
 	\item CIB電源系
-	\item ミッション部電源系
+	\item 伸展カメラ部電源系
 \end{itemize}
 
 
@@ -23,7 +24,7 @@
 	\begin{center}
 		\includegraphics[width=0.5\linewidth]{./03/fig/Power_diagram.png}
 		\caption{Example of a figure caption.}
-		\label{mir}
+		\label{power_diagram}
 	\end{center}
 \end{figure}
 \end{landscape}            
@@ -34,11 +35,103 @@
 \subsubsection{SAP試験}
 
 \subsection{バッテリ}
+バッテリはClyde Space社の30Whr　Standalone CubeSat Batteryを購入した
+図
+．バッテリの諸元を表
+
+に示す
+
+また絶対最大定格を
+
+に示す．
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=0.5\linewidth]{./03/fig/battery.jpg}
+		\caption{30Whr Standalone　CubeSat Battery (c)Clyde Space}
+		\label{mir}
+	\end{center}
+\end{figure}
+
+\begin{table}[htbp]
+	\begin{center}
+		\includegraphics[width=0.8\linewidth]{./03/fig/battery_spec.png}
+		\caption{30Whr}
+		\label{mir}
+	\end{center}
+\end{table}
+
+絶対最大定格
+
+本バッテリは内部保護機能
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=0.5\linewidth]{./03/fig/bat_protection.png}
+		\caption{Integrated EPS and Battery Protection Architecture 転載}
+		\label{mir}
+	\end{center}
+\end{figure}
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=0.5\linewidth]{./03/fig/cell_protection.png}
+		\caption{Integrated EPS and Battery Protection Architecture 転載}
+		\label{cell_p}
+	\end{center}
+\end{figure}
 
 
 \subsection{CIB電源系}
 
-\subsection{EPS}
+\begin{figure}[htbp]
+	\begin{minipage}{0.5\hsize}
+		\begin{center}
+			\includegraphics[width=0.7
+			\linewidth]{./03/fig/CIB_1.jpg}
+		\end{center}
+	\end{minipage}
+	\begin{minipage}{0.5\hsize}
+		\begin{center}
+			\includegraphics[width=0.7\linewidth]{./03/fig/CIB_2.jpg}
+		\end{center}
+	\end{minipage}\\		
+	\begin{center}
+		\caption{CIB}
+	\end{center}
+\label{CIB}
+\end{figure}
 
+\subsubsection{インヒビット回路}
+
+
+\subsubsection{電源回路}
+RXCOBCおよびTXCOBCは
+UHF/VHF無線機
+はほとんどの場合起動していないければならない
+
+そこで新たな電源回路を設けた
+
+
+
+\subsection{EPS}
+EPSは
+
+を購入した
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=0.5\linewidth]{./03/fig/eps.png}
+		\caption{EPS}
+		\label{eps}
+	\end{center}
+\end{figure}
 
 \subsection{ミッション部電源系}
+ミッション部電源系は
+Raspberry Pi
+が受け取ったUART信号により
+スイッチのON/OFFを切り替える
+\ref{}にて
+後述する
+
+
