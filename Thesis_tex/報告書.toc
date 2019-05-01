@@ -27,48 +27,58 @@
 \contentsline {chapter}{\numberline {第4章}統合試験}{4}
 \contentsline {section}{\numberline {4.1}放射線試験（寺田（報告書）・池谷・黒崎）}{4}
 \contentsline {section}{\numberline {4.2}形状計測試験（大野・奥山）}{4}
-\contentsline {section}{\numberline {4.3}振動試験（加藤・飯島）}{4}
-\contentsline {section}{\numberline {4.4}衝撃試験（大野）}{4}
-\contentsline {section}{\numberline {4.5}連続動作試験 EMver（？）}{4}
-\contentsline {section}{\numberline {4.6}姿勢制御試験（恒光）}{4}
-\contentsline {section}{\numberline {4.7}通信系 機能試験（大本）}{4}
-\contentsline {section}{\numberline {4.8}熱真空試験（中村）：ベーキングについても言及}{4}
-\contentsline {section}{\numberline {4.9}表面あらさ計測（大野・奥山）}{4}
-\contentsline {section}{\numberline {4.10}放出試験（大野・奥山）}{4}
-\contentsline {chapter}{\numberline {第5章}安全審査（中西・坂本）}{5}
-\contentsline {section}{\numberline {5.1}Phase 0/1}{5}
-\contentsline {section}{\numberline {5.2}Phase 2}{5}
-\contentsline {section}{\numberline {5.3}Phase 3}{5}
-\contentsline {chapter}{\numberline {第6章}引き渡し}{6}
-\contentsline {section}{\numberline {6.1}コンプライアンスマトリクス（大野・中西）}{6}
-\contentsline {section}{\numberline {6.2}内之浦での引渡し（中西・坂本）}{6}
-\contentsline {chapter}{\numberline {第7章}運用と不具合解析（加藤？）}{7}
-\contentsline {section}{\numberline {7.1}運用（坂本・加藤・井手）}{7}
-\contentsline {section}{\numberline {7.2}軌道上データ（坂本・井手・岩崎）}{7}
-\contentsline {section}{\numberline {7.3}不具合解析（岩崎・大本）}{7}
-\contentsline {chapter}{\numberline {第8章}革新的衛星技術実証プログラムへの参加（坂本）}{8}
-\contentsline {chapter}{\numberline {第9章}国際周波数調整（中西）}{9}
-\contentsline {chapter}{\numberline {第10章}内閣府宇宙活動法（坂本）}{10}
-\contentsline {chapter}{\numberline {第11章}物体登録（中西）}{11}
-\contentsline {chapter}{\numberline {第12章}プロジェクトマネジメント（池谷・岩崎・大野）}{12}
-\contentsline {section}{\numberline {12.1}開発日程}{12}
-\contentsline {section}{\numberline {12.2}人員配置・引継ぎ}{12}
-\contentsline {chapter}{\numberline {第13章}付録}{13}
-\contentsline {section}{\numberline {13.1}システム設計}{13}
-\contentsline {section}{\numberline {13.2}5.8}{13}
-\contentsline {section}{\numberline {13.3}構体系}{13}
-\contentsline {section}{\numberline {13.4}VHF/UHF展開アンテナ}{13}
-\contentsline {section}{\numberline {13.5}通信系}{13}
-\contentsline {section}{\numberline {13.6}C\&DH系}{13}
-\contentsline {section}{\numberline {13.7}電源系}{13}
-\contentsline {section}{\numberline {13.8}振動試験}{13}
-\contentsline {section}{\numberline {13.9}熱真空試験}{13}
-\contentsline {section}{\numberline {13.10}連続動作試験}{13}
-\contentsline {section}{\numberline {13.11}引渡し}{13}
-\contentsline {section}{\numberline {13.12}プロジェクトマネジメント}{13}
-\contentsline {section}{\numberline {13.13}展開膜}{13}
-\contentsline {section}{\numberline {13.14}MDC}{13}
-\contentsline {section}{\numberline {13.15}伸展カメラ部}{13}
-\contentsline {section}{\numberline {13.16}運用}{13}
-\contentsline {chapter}{参考文献}{14}
-\contentsline {chapter}{謝辞}{15}
+\contentsline {subsection}{\numberline {4.2.1}形状計測試験とは}{4}
+\contentsline {subsection}{\numberline {4.2.2}外形寸法に関する要求}{4}
+\contentsline {subsubsection}{\numberline {(1)}三次元測定機を用いた測定}{5}
+\contentsline {subsubsection}{\numberline {(2)}フィットチェックとノギスによる確認}{6}
+\contentsline {subsection}{\numberline {4.2.3}レールに関する要求}{6}
+\contentsline {subsection}{\numberline {4.2.4}エンベロープに関する要求}{7}
+\contentsline {subsection}{\numberline {4.2.5}質量特性に関する要求}{7}
+\contentsline {subsection}{\numberline {4.2.6}セパレーションスプリング/ディプロイメントスイッチに関する要求}{7}
+\contentsline {subsection}{\numberline {4.2.7}強度要求}{7}
+\contentsline {subsection}{\numberline {4.2.8}アクセス窓}{8}
+\contentsline {section}{\numberline {4.3}振動試験（加藤・飯島）}{8}
+\contentsline {section}{\numberline {4.4}衝撃試験（大野）}{8}
+\contentsline {section}{\numberline {4.5}連続動作試験 EMver（？）}{8}
+\contentsline {section}{\numberline {4.6}姿勢制御試験（恒光）}{8}
+\contentsline {section}{\numberline {4.7}通信系 機能試験（大本）}{8}
+\contentsline {section}{\numberline {4.8}熱真空試験（中村）：ベーキングについても言及}{8}
+\contentsline {section}{\numberline {4.9}表面あらさ計測（大野・奥山）}{8}
+\contentsline {section}{\numberline {4.10}放出試験（大野・奥山）}{8}
+\contentsline {chapter}{\numberline {第5章}安全審査（中西・坂本）}{9}
+\contentsline {section}{\numberline {5.1}Phase 0/1}{9}
+\contentsline {section}{\numberline {5.2}Phase 2}{9}
+\contentsline {section}{\numberline {5.3}Phase 3}{9}
+\contentsline {chapter}{\numberline {第6章}引き渡し}{10}
+\contentsline {section}{\numberline {6.1}コンプライアンスマトリクス（大野・中西）}{10}
+\contentsline {section}{\numberline {6.2}内之浦での引渡し（中西・坂本）}{10}
+\contentsline {chapter}{\numberline {第7章}運用と不具合解析（加藤？）}{11}
+\contentsline {section}{\numberline {7.1}運用（坂本・加藤・井手）}{11}
+\contentsline {section}{\numberline {7.2}軌道上データ（坂本・井手・岩崎）}{11}
+\contentsline {section}{\numberline {7.3}不具合解析（岩崎・大本）}{11}
+\contentsline {chapter}{\numberline {第8章}革新的衛星技術実証プログラムへの参加（坂本）}{12}
+\contentsline {chapter}{\numberline {第9章}国際周波数調整（中西）}{13}
+\contentsline {chapter}{\numberline {第10章}内閣府宇宙活動法（坂本）}{14}
+\contentsline {chapter}{\numberline {第11章}物体登録（中西）}{15}
+\contentsline {chapter}{\numberline {第12章}プロジェクトマネジメント（池谷・岩崎・大野）}{16}
+\contentsline {section}{\numberline {12.1}開発日程}{16}
+\contentsline {section}{\numberline {12.2}人員配置・引継ぎ}{16}
+\contentsline {chapter}{\numberline {第13章}付録}{17}
+\contentsline {section}{\numberline {13.1}システム設計}{17}
+\contentsline {section}{\numberline {13.2}5.8}{17}
+\contentsline {section}{\numberline {13.3}構体系}{17}
+\contentsline {section}{\numberline {13.4}VHF/UHF展開アンテナ}{17}
+\contentsline {section}{\numberline {13.5}通信系}{17}
+\contentsline {section}{\numberline {13.6}C\&DH系}{17}
+\contentsline {section}{\numberline {13.7}電源系}{17}
+\contentsline {section}{\numberline {13.8}振動試験}{17}
+\contentsline {section}{\numberline {13.9}熱真空試験}{17}
+\contentsline {section}{\numberline {13.10}連続動作試験}{17}
+\contentsline {section}{\numberline {13.11}引渡し}{17}
+\contentsline {section}{\numberline {13.12}プロジェクトマネジメント}{17}
+\contentsline {section}{\numberline {13.13}展開膜}{17}
+\contentsline {section}{\numberline {13.14}MDC}{17}
+\contentsline {section}{\numberline {13.15}伸展カメラ部}{17}
+\contentsline {section}{\numberline {13.16}運用}{17}
+\contentsline {chapter}{参考文献}{18}
+\contentsline {chapter}{謝辞}{19}
