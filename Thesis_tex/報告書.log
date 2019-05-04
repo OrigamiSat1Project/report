@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2018.4.10)  1 MAY 2019 17:42
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2018.4.10)  4 MAY 2019 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -362,11 +362,11 @@ File: 04/fig/3dmeasurementresult.png Graphic file (type bmp)
 
 
 LaTeX Font Warning: Font shape `JT1/mc/m/sl' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 59.
+(Font)              using `JT1/mc/m/n' instead on input line 60.
 
 
 LaTeX Font Warning: Font shape `JY1/mc/m/sl' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 59.
+(Font)              using `JY1/mc/m/n' instead on input line 60.
 
 [5]
 File: 04/fig/fitcheck.JPG Graphic file (type bmp)
@@ -375,12 +375,33 @@ File: 04/fig/fitcheck.JPG Graphic file (type bmp)
 File: 04/fig/accessport.JPG Graphic file (type bmp)
 <04/fig/accessport.JPG>
 ) (./04/04_3.tex) (./04/04_4.tex) (./04/04_5.tex) (./04/04_6.tex)
-(./04/04_7.tex) (./04/04_8.tex) (./04/04_9.tex) (./04/04_10.tex)) [8]
+(./04/04_7.tex) (./04/04_8.tex) (./04/04_9.tex [8]
+File: 04/fig/surfaceroughness.jpg Graphic file (type bmp)
+<04/fig/surfaceroughness.jpg>
+ [9]
+File: 04/fig/scratch1.jpg Graphic file (type bmp)
+<04/fig/scratch1.jpg>
+File: 04/fig/scratch2.jpg Graphic file (type bmp)
+<04/fig/scratch2.jpg>
+ [10]
+File: 04/fig/scrape.png Graphic file (type bmp)
+<04/fig/scrape.png>
+) (./04/04_10.tex
+File: 04/fig/hole.png Graphic file (type bmp)
+<04/fig/hole.png>
+
+[11]
+File: 04/fig/horizontalequipment.png Graphic file (type bmp)
+<04/fig/horizontalequipment.png>
+ [12]
+File: 04/fig/verticalequipment.png Graphic file (type bmp)
+<04/fig/verticalequipment.png>
+ [13])) [14]
 \openout2 = `05.aux'.
 
  (./05.tex
 第 5 章
-(./05/05_1.tex) (./05/05_2.tex) (./05/05_3.tex)) [9
+(./05/05_1.tex) (./05/05_2.tex) (./05/05_3.tex)) [15
 
 
 
@@ -389,7 +410,7 @@ File: 04/fig/accessport.JPG Graphic file (type bmp)
 
  (./06.tex
 第 6 章
-(./06/06_1.tex) (./06/06_2.tex)) [10
+(./06/06_1.tex) (./06/06_2.tex)) [16
 
 
 
@@ -398,7 +419,7 @@ File: 04/fig/accessport.JPG Graphic file (type bmp)
 
  (./07.tex
 第 7 章
-(./07/07_1.tex) (./07/07_2.tex) (./07/07_3.tex)) [11
+(./07/07_1.tex) (./07/07_2.tex) (./07/07_3.tex)) [17
 
 
 
@@ -407,7 +428,7 @@ File: 04/fig/accessport.JPG Graphic file (type bmp)
 
  (./08.tex
 第 8 章
-(./08/08_1.tex)) [12
+(./08/08_1.tex)) [18
 
 
 
@@ -416,7 +437,7 @@ File: 04/fig/accessport.JPG Graphic file (type bmp)
 
  (./09.tex
 第 9 章
-(./09/09_1.tex)) [13
+(./09/09_1.tex)) [19
 
 
 
@@ -425,7 +446,7 @@ File: 04/fig/accessport.JPG Graphic file (type bmp)
 
  (./10.tex
 第 10 章
-(./10/10_1.tex)) [14
+(./10/10_1.tex)) [20
 
 
 
@@ -434,7 +455,7 @@ File: 04/fig/accessport.JPG Graphic file (type bmp)
 
  (./11.tex
 第 11 章
-(./11/11_1.tex)) [15
+(./11/11_1.tex)) [21
 
 
 
@@ -443,7 +464,7 @@ File: 04/fig/accessport.JPG Graphic file (type bmp)
 
  (./12.tex
 第 12 章
-(./12/12_1.tex) (./12/12_2.tex)) [16
+(./12/12_1.tex) (./12/12_2.tex)) [22
 
 
 
@@ -455,7 +476,7 @@ File: 04/fig/accessport.JPG Graphic file (type bmp)
 (./13/13_1.tex) (./13/13_2.tex) (./13/13_3.tex) (./13/13_4.tex) (./13/13_5.tex)
 (./13/13_6.tex) (./13/13_7.tex) (./13/13_8.tex) (./13/13_9.tex) (./13/13_10.tex
 ) (./13/13_11.tex) (./13/13_12.tex) (./13/13_13.tex) (./13/13_14.tex)
-(./13/13_15.tex) (./13/13_16.tex)) [17
+(./13/13_15.tex) (./13/13_16.tex)) [23
 
 
 
@@ -466,7 +487,7 @@ File: 04/fig/accessport.JPG Graphic file (type bmp)
 
 LaTeX Warning: Empty `thebibliography' environment on input line 27.
 
-) [18
+) [24
 
 
 
@@ -476,7 +497,7 @@ LaTeX Warning: Empty `thebibliography' environment on input line 27.
  (./92_appendix.tex)
 \openout2 = `90_acknowledgment.aux'.
 
- (./90_acknowledgment.tex) [19
+ (./90_acknowledgment.tex) [25
 
 
 
@@ -492,12 +513,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 3029 strings out of 493640
- 36871 string characters out of 6148698
- 114364 words of memory out of 5000000
- 6258 multiletter control sequences out of 15000+600000
+ 3059 strings out of 493640
+ 37525 string characters out of 6148698
+ 114456 words of memory out of 5000000
+ 6280 multiletter control sequences out of 15000+600000
  25823 words of font info for 100 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 31i,10n,43p,763b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,10n,43p,763b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on �^^a0怨^^91^^8a�^^9b�.dvi (24 pages, 41808 bytes).
+Output written on �^^a0怨^^91^^8a�^^9b�.dvi (30 pages, 57496 bytes).
