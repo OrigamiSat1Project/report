@@ -12,8 +12,8 @@
 \contentsline {subsubsection}{\numberline {(1)}初期運用概要（黒崎）}{3}
 \contentsline {subsubsection}{\numberline {(2)}基本設計思想（黒崎・小出）}{3}
 \contentsline {subsubsection}{\numberline {(3)}開発の流れ（黒崎）}{5}
-\contentsline {subsubsection}{\numberline {(4)}OBC初期運用モードソフト詳細（小出）}{10}
-\contentsline {subsubsection}{\numberline {(5)}CIB初期運用モードソフト詳細（黒崎）}{11}
+\contentsline {subsubsection}{\numberline {(4)}OBC正常時初期運用モードソフト詳細（小出）}{10}
+\contentsline {subsubsection}{\numberline {(5)}OBC異常時初期運用モードソフト詳細（黒崎）}{10}
 \contentsline {subsubsection}{\numberline {(6)}初期運用　運用結果（黒崎）}{11}
 \contentsline {subsubsection}{\numberline {(7)}コメントや次回の改善点}{11}
 \contentsline {section}{\numberline {3.5}姿勢制御系（恒光・中西）}{12}

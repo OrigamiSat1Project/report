@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.0-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018/W32TeX) (preloaded format=uplatex 2018.4.2)  2 MAY 2019 17:21
+This is e-upTeX, Version 3.14159265-p3.8.0-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018/W32TeX) (preloaded format=uplatex 2018.4.2)  5 MAY 2019 17:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -420,15 +420,10 @@ File: 03/fig/t3-4-Ini-3.pdf Graphic file (type pdf)
  [7] [8] [9]
 File: 03/fig/3-4-Ini-1.pdf Graphic file (type pdf)
 <03/fig/3-4-Ini-1.pdf>
-
-Overfull \hbox (39.7496pt too wide) in paragraph at lines 106--107
- [][] 
- []
-
-[10])) (./03/03_5.tex) (./03/03_6.tex) (./03/03_7.tex) (./03/03_8.tex)
-(./03/03_9_1.tex) (./03/03_9_2_1.tex) (./03/03_9_2_2.tex) (./03/03_9_2_3.tex)
-(./03/03_9_3_1.tex) (./03/03_9_3_2.tex) (./03/03_9_3_3.tex) (./03/03_9_3_4.tex)
-(./03/03_9_3_5.tex)) [11] [12]
+ [10])) (./03/03_5.tex) (./03/03_6.tex) (./03/03_7.tex)
+(./03/03_8.tex) (./03/03_9_1.tex) (./03/03_9_2_1.tex) (./03/03_9_2_2.tex)
+(./03/03_9_2_3.tex) (./03/03_9_3_1.tex) (./03/03_9_3_2.tex) (./03/03_9_3_3.tex)
+(./03/03_9_3_4.tex) (./03/03_9_3_5.tex)) [11] [12]
 \openout2 = `04.aux'.
 
  (./04.tex
@@ -563,4 +558,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  36i,10n,43p,783b,371s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on 報告書.dvi (28 pages, 41036 bytes).
+Output written on 報告書.dvi (28 pages, 41644 bytes).
