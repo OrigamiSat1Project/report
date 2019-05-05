@@ -1,10 +1,19 @@
-\subsection{CIB電源系}
+\subsection{インヒビット回路}
+\label{subsec;inhibit}
+
+射場作業から衛星分離までの期間における意図しない電波放射を防ぐ，あるいは放出ポッド搭載から放出までの太陽電池からの電源供給を遮断する等の目的のために，文献 \cite{sat_safety}を参考に3インヒビット回路を本衛星に設けた．購入品の機能ではこの要求を満たせなかったため，Battery-EPS間に新たに通信・インヒビット基板(Communication \& Inhibit circuit Board, CIB)を設けた（図\ref{fig3-1cib_p}，\ref{fig3-1cib}）．
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\linewidth]{./03/fig/cib_position.png}
+	\caption{Overview of Satellite Bus Components}
+	\label{fig3-1cib_p}
+\end{figure}
 
 \begin{figure}[htbp]
 	\begin{minipage}{0.5\hsize}
 		\begin{center}
-			\includegraphics[width=0.7
-			\linewidth]{./03/fig/CIB_1.jpg}
+			\includegraphics[width=0.7\linewidth]{./03/fig/CIB_1.jpg}
 		\end{center}
 	\end{minipage}
 	\begin{minipage}{0.5\hsize}
@@ -13,109 +22,32 @@
 		\end{center}
 	\end{minipage}\\		
 	\begin{center}
-		\caption{CIB}
+		\caption{Image of CIB}
 	\end{center}
-\label{CIB}
+	\label{fig3-1cib}
 \end{figure}
 
-\subsubsection{インヒビット回路}
-イプシロンロケット
-ACX-11007「小型副衛星の安全設計手引き制定初版」を参考に
-要求により
 
-以下のハザードを設けられた
-これらのハザードに対応するために
-3インヒビット回路を設けた．
+インヒビット回路の回路図は図\ref{fig3_1_inhibit_d}のようになっている．購入したEPSの仕様上Battery-EPS間のみならず，SAP-EPS間も遮断し，SAPに光が当たっていてもEPSが動作しないようにした（図\ref{fig3-1_eps_bd}参照）．
 
-購入品ではこれらの要求を満たせなかったため新たに
+COLD側のMOSFETはON Semiconductor社のNTMFS5C404NをBack to Backで接続した．これは電流を双方向に流すことが目的であったが実際にはEPS側からバッテリ側にのみ流れるため，MOSFET内のドレイン・ソース間オン抵抗，および基板実装を考慮し，片方のみが好ましい．
 
-Battery-EPS間に新たに
-
-ただし現在は3インヒビット要求を満たすバッテリがClyde Space社から新たに発売されている
-
-\begin{figure}[htbp]
-	\begin{center}
-		\includegraphics[width=0.7\linewidth]{./03/fig/cib_position.png}
-		\caption{Cell level protection circuit schematic 転載}
-		\label{fig3_1_cibposi}
-	\end{center}
-\end{figure}
-インヒビット回路の回路図は
-
-のようになっている
-
-SAP-EPS間の遮断
+HOT側のソリッドステートリレーはBattery-EPS間にオムロン株式会社のG3VM-31HRを，SAP-EPS間にはパナソニック株式会社AQY211G2を選定した．これは低オン抵抗であることを重要視して選定した．HOT側のインヒビットはP-chanel MOSFETとN-channel MOSFETを組み合わせても（充放電ともにできるよう設計しなければならないが）実現可能である．本衛星では回路の簡易化のためにソリッドステートリレーを選択したものの，MOSFETのほうが概して内部抵抗が小さいため基板の面積との兼ね合いではMOSFETによる遮断も検討する必要がある．
 
 
-リターン側のMOSFETをBack to Back
-で双方向
-実際には片方のみで問題ない
-HOT側のPhotoMOSは
-型番
+これらのIC動作の不具合は衛星にとって致命的であるため実証実績の少ないソリッドステートリレーは並列に接続し冗長系を組んだ．
+また放射線試験によって放射線耐性を入念に確認した．
 
-
-これらのIC選定の基準として
-
-またP-chanel MOS
-
-回路の簡易化のために
-ただしMOS
-内部抵抗は概して小さい
-これらのIC動作の不具合は致命的であるため
-実際には並列に接続した
 
 \begin{figure}[htbp]
 	\begin{center}
 		\includegraphics[width=0.9\linewidth]{./03/fig/inhibit_diagram_2.png}
-		\caption{Integrated EPS and Battery Protection Architecture 転載}
+		\caption{Inhibit Circuit Diagram}
 		\label{fig3_1_inhibit_d}
 	\end{center}
 \end{figure}
 
-\subsubsection{フライトピン}
-衛星のハンドリング中
 
-
-
-
-\subsubsection{CIB内電源回路}
-通信用マイコンであるRXCOBC，TXCOBCはミッション開始から終了までほぼすべての期間で起動している必要がある．EPSから供給されるコンポーネントの一括on/offを可能にするためにこれらの電源系はEPS基板とは別に新たに設け，EPS電源が入っていない状態においても衛星として最低限の役割が機能するように設計した．
-
-
-
-
-そこで新たな電源回路をCIB内に設けた．RXCOBC，TXCOBCの電源である3.3 V系は軌道上での故障が許されない
-そこで一般的に効率の良いスイッチングレギュレータ，ではなく信頼性の高い三端子レギュレータを使用した．さらにレギュレータが1つ動作しなかった場合に備えて二つのレギュレータを並列で繋いだ．
-
-参考文献
-
-
-\begin{figure}[htbp]
-	\begin{center}
-		\includegraphics[width=0.6\linewidth]{./03/fig/3V3.png}
-		\caption{Integrated EPS and Battery Protection Architecture 転載}
-		\label{fig3_1_inhibit_d}
-	\end{center}
-\end{figure}
-
-およびUHF/VHF無線機
-
-
-また5.8GHz送信を行う際の突入電流が非常に大きくEPSの
-保護機能が働いてしまうために12V系も新たにCIB上に設計した
-
-
-12V系は
-突入電流が
-購入EPSの
-
-そこで新たにDC-DCコンバータ
-
-これらは二重に
-
-さらに過電流対策
-
-放射線試験によるICの放射線耐性を
 
 
 
