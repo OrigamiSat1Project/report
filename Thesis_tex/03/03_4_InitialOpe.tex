@@ -115,7 +115,18 @@ OBC正常時のフローチャートを以下に示す．
 	\item OBCはEPSのWDTを管理しているので，初期運用時では初期運用のタスク内のループで叩きに行く構造(通常はOBCのコマンド確認で行っている詳細はOBCの章)
 \end{itemize}
 \subsubsection{OBC異常時初期運用モードソフト詳細（黒崎）}
-フローチャート的なものとセットで
+OBC異常時のフローチャートを図\ref{fig3-4-Ini-2}に示す．
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{03/fig/3-4-Ini-2.jpg}
+	\caption{OBC異常時のフローチャート}
+	\label{fig3-4-Ini-2}
+\end{figure}	
+\begin{itemize}
+	\item RXPICで22.5分毎に行われるタイマー割込み処理内で，OBCの起動が確認できない場合，RXPICでの溶断シーケンスに入る．
+	\item 溶断ステータス及び衛星モードを確認し，未溶断かつNominalモードの時に溶断処理に入る．
+	\item EEPROMの溶断カウンターの値を読み込み，値に応じて溶断を行った後，溶断カウンターを更新する．
+\end{itemize}
 
 \subsubsection{初期運用　運用結果（黒崎）}
 %以下のアクションの日付を書き足したいな．．．
