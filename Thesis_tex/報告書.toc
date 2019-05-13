@@ -27,16 +27,15 @@
 \contentsline {chapter}{\numberline {第4章}統合試験}{4}
 \contentsline {section}{\numberline {4.1}放射線試験（寺田（報告書）・池谷・黒崎）}{4}
 \contentsline {section}{\numberline {4.2}形状計測試験（大野・奥山）}{4}
-\contentsline {subsection}{\numberline {4.2.1}形状計測試験とは}{4}
-\contentsline {subsection}{\numberline {4.2.2}外形寸法に関する要求}{4}
+\contentsline {subsection}{\numberline {4.2.1}外形寸法に関する要求}{4}
 \contentsline {subsubsection}{\numberline {(1)}三次元測定機を用いた測定}{5}
 \contentsline {subsubsection}{\numberline {(2)}フィットチェックとノギスによる確認}{6}
-\contentsline {subsection}{\numberline {4.2.3}レールに関する要求}{6}
-\contentsline {subsection}{\numberline {4.2.4}エンベロープに関する要求}{7}
-\contentsline {subsection}{\numberline {4.2.5}質量特性に関する要求}{7}
-\contentsline {subsection}{\numberline {4.2.6}セパレーションスプリング/ディプロイメントスイッチに関する要求}{7}
-\contentsline {subsection}{\numberline {4.2.7}強度要求}{7}
-\contentsline {subsection}{\numberline {4.2.8}アクセス窓}{8}
+\contentsline {subsection}{\numberline {4.2.2}レールに関する要求}{6}
+\contentsline {subsection}{\numberline {4.2.3}エンベロープに関する要求}{7}
+\contentsline {subsection}{\numberline {4.2.4}質量特性に関する要求}{7}
+\contentsline {subsection}{\numberline {4.2.5}セパレーションスプリング/ディプロイメントスイッチに関する要求}{7}
+\contentsline {subsection}{\numberline {4.2.6}強度要求}{8}
+\contentsline {subsection}{\numberline {4.2.7}アクセス窓}{8}
 \contentsline {section}{\numberline {4.3}振動試験（加藤・飯島）}{9}
 \contentsline {section}{\numberline {4.4}衝撃試験（大野）}{9}
 \contentsline {section}{\numberline {4.5}連続動作試験 EMver（？）}{9}
