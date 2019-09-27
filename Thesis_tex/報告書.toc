@@ -8,6 +8,7 @@
 \contentsline {section}{\numberline {3.2}通信系 (衛星)　（大本）}{3}
 \contentsline {section}{\numberline {3.3}地上局（加藤・飯島）}{3}
 \contentsline {section}{\numberline {3.4}C\&DH系（OBC 岩崎・小出・林・井手, COBC　黒崎・中塚・大本, Rpi　飯島）}{3}
+<<<<<<< HEAD
 \contentsline {section}{\numberline {3.5}姿勢制御系（恒光・中西）}{3}
 \contentsline {section}{\numberline {3.6}構体系（奥山・大野） 重量管理も含む}{3}
 \contentsline {section}{\numberline {3.7}熱系（中村）}{3}
@@ -50,6 +51,47 @@
 \contentsline {subsection}{\numberline {4.3.6}EM試験}{12}
 \contentsline {subsection}{\numberline {4.3.7}FM試験}{12}
 \contentsline {subsection}{\numberline {4.3.8}FM再試験}{13}
+=======
+\contentsline {subsection}{\numberline {3.4.1}CIB}{3}
+\contentsline {subsubsection}{\numberline {(1)}基本設計思想}{3}
+\contentsline {subsubsection}{\numberline {(2)}プログラム概要}{3}
+\contentsline {paragraph}{RXPIC役割}{3}
+\contentsline {paragraph}{TXPIC役割}{3}
+\contentsline {subsubsection}{\numberline {(3)}RXPIC詳細}{4}
+\contentsline {paragraph}{初期運用}{6}
+\contentsline {paragraph}{EPSリセット}{6}
+\contentsline {paragraph}{無線機の周波数設定}{6}
+\contentsline {paragraph}{バッテリ電圧測定及び衛星モード切替}{6}
+\contentsline {paragraph}{アップリンクコマンド処理}{9}
+\contentsline {subsubsection}{\numberline {(4)}TXPIC詳細}{10}
+\contentsline {paragraph}{初期運用}{11}
+\contentsline {paragraph}{ADCの値を取得}{11}
+\contentsline {paragraph}{レシーブコマンドダウンリンク}{11}
+\contentsline {paragraph}{CW ダウンリンク}{11}
+\contentsline {paragraph}{FMダウンリンク}{11}
+\contentsline {paragraph}{スイッチ切替}{11}
+\contentsline {subsubsection}{\numberline {(5)}コメントや次回への改善点}{11}
+\contentsline {section}{\numberline {3.5}姿勢制御系（恒光・中西）}{12}
+\contentsline {section}{\numberline {3.6}構体系（奥山・大野） 重量管理も含む}{12}
+\contentsline {section}{\numberline {3.7}熱系（中村）}{12}
+\contentsline {section}{\numberline {3.8}VHF/UHF展開アンテナ（仁尾・坂本）}{12}
+\contentsline {section}{\numberline {3.9}ミッション系}{12}
+\contentsline {subsection}{\numberline {3.9.1}5.8GHz通信ミッション（井手）}{12}
+\contentsline {subsection}{\numberline {3.9.2}伸展カメラ}{12}
+\contentsline {subsubsection}{\numberline {(1)}システム開発（ウェル・坂本）}{12}
+\contentsline {subsubsection}{\numberline {(2)}3次元計測（飯島・黒崎）}{12}
+\contentsline {subsubsection}{\numberline {(3)}動画計測（飯島）}{12}
+\contentsline {subsection}{\numberline {3.9.3}膜展開部}{12}
+\contentsline {subsubsection}{\numberline {(1)}展開膜開発（古谷・坂本）}{12}
+\contentsline {subsubsection}{\numberline {(2)}MDC（大本）}{12}
+\contentsline {subsubsection}{\numberline {(3)}薄膜太陽電池ミッション（大野）}{12}
+\contentsline {subsubsection}{\numberline {(4)}SMAアンテナミッション（鳥阪）}{12}
+\contentsline {subsubsection}{\numberline {(5)}球状太陽電池ミッション（サカセ・坂本）}{12}
+\contentsline {chapter}{\numberline {第4章}統合試験}{13}
+\contentsline {section}{\numberline {4.1}放射線試験（寺田（報告書）・池谷・黒崎）}{13}
+\contentsline {section}{\numberline {4.2}形状計測試験（大野・奥山）}{13}
+\contentsline {section}{\numberline {4.3}振動試験（加藤・飯島）}{13}
+>>>>>>> origin/03_CIB
 \contentsline {section}{\numberline {4.4}衝撃試験（大野）}{13}
 \contentsline {section}{\numberline {4.5}連続動作試験 EMver（？）}{13}
 \contentsline {section}{\numberline {4.6}姿勢制御試験（恒光）}{13}

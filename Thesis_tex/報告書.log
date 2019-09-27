@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2018.4.2)  12 APR 2019 14:36
 entering extended mode
  restricted \write18 enabled.
@@ -11,6 +12,25 @@ Document Class: jreport 2018/02/04 v1.7h Standard pLaTeX class
 \c@@paper=\count82
 (c:/w32tex/share/texmf-dist/tex/platex/base/jsize11.clo
 File: jsize11.clo 2018/02/04 v1.7h Standard pLaTeX file (size option)
+=======
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017/W32TeX) (preloaded format=uplatex 2018.4.9)  26 APR 2019 17:50
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./•ñ‘.tex
+(./•ñ‘.tex
+pLaTeX2e <2017/05/05u01> (based on LaTeX2e <2017-04-15>)
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(c:/texlive/2017/texmf-dist/tex/uplatex/base/ujreport.cls
+Document Class: ujreport 2017/03/05 v1.7e-u00 Standard upLaTeX class
+\c@@paper=\count82
+(c:/texlive/2017/texmf-dist/tex/uplatex/base/ujsize11.clo
+File: ujsize11.clo 2017/03/05 v1.7e-u00 Standard upLaTeX file (size option)
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 10.53629pt on input line 28.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 10.53629pt on input line 28.
+>>>>>>> origin/03_CIB
 )
 \c@part=\count83
 \c@chapter=\count84
@@ -25,30 +45,39 @@ File: jsize11.clo 2018/02/04 v1.7h Standard pLaTeX file (size option)
 \belowcaptionskip=\skip42
 \symmincho=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+<<<<<<< HEAD
 (Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 703.
+=======
+(Font)                  JY2/mc/m/n --> JY2/gt/m/n on input line 703.
+>>>>>>> origin/03_CIB
 \toclineskip=\dimen118
 \@lnumwidth=\dimen119
 \bibindent=\dimen120
 \heisei=\count92
 )
+<<<<<<< HEAD
 (c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
+=======
+(c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+>>>>>>> origin/03_CIB
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amstext.sty
+(c:/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+(c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks15
 \ex@=\dimen121
 ))
-(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen122
 )
-(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+(c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count93
@@ -89,17 +118,17 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(c:/w32tex/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(c:/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(c:/w32tex/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(c:/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(c:/w32tex/share/texmf-dist/tex/latex/tools/bm.sty
+(c:/texlive/2017/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup7
 \symboldletters=\mathgroup8
@@ -108,11 +137,11 @@ Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
 )
-(c:/w32tex/share/texmf-dist/tex/latex/ascmac/ascmac.sty
-Package: ascmac 2018/03/09 v2.0h ascmac wrapper (community edition) 
+(c:/texlive/2017/texmf-dist/tex/platex/base/ascmac.sty
+Package: ascmac 2016/08/21 v2.0c ascmac wrapper (community edition) 
 
-(c:/w32tex/share/texmf-dist/tex/latex/ascmac/tascmac.sty
-Package: tascmac 2018/03/09 v2.0h ascmac package (community edition) 
+(c:/texlive/2017/texmf-dist/tex/platex/base/tascmac.sty
+Package: tascmac 2016/08/21 v2.0c ascmac package (community edition) 
 \@savetbaselineshift=\dimen130
 \@saveybaselineshift=\dimen131
 \scb@x=\box44
@@ -121,6 +150,7 @@ Package: tascmac 2018/03/09 v2.0h ascmac package (community edition)
 \@nbox=\box46
 \@nbody=\box47
 \@scw=\dimen133
+<<<<<<< HEAD
 \ascmac@hoboxa=\box48
 \ascmac@hoboxb=\box49
 \@itemh=\dimen134
@@ -128,77 +158,101 @@ Package: tascmac 2018/03/09 v2.0h ascmac package (community edition)
 \@iboxstr=\box50
 \@bwsp=\box51
 \@@bwsp=\box52
+=======
+\@itemh=\dimen134
+\@iboxpos=\toks20
+\@iboxstr=\box48
+\@bwsp=\box49
+\@@bwsp=\box50
+>>>>>>> origin/03_CIB
 \@bcal=\count105
 \shaderule=\dimen135
 ))
-(c:/w32tex/share/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(c:/w32tex/share/texmf-dist/tex/latex/graphics/keyval.sty
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-(c:/w32tex/share/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-(c:/w32tex/share/texmf-dist/tex/latex/graphics/trig.sty
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(c:/w32tex/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(c:/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: dvipdfmx.def on input line 99.
 
-(c:/w32tex/share/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
-File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+(c:/texlive/2017/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2016/07/11 v4.12 LaTeX color/graphics driver for dvipdfmx (L
+3/ChoF)
 ))
 \Gin@req@height=\dimen136
 \Gin@req@width=\dimen137
 )
+<<<<<<< HEAD
 (c:/w32tex/share/texmf-dist/tex/latex/multirow/multirow.sty
+=======
+(c:/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
+>>>>>>> origin/03_CIB
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip46
 \multirow@cntb=\count106
 \multirow@dima=\skip47
 \bigstrutjot=\dimen138
-) (./ylab_thesis.sty) (c:/w32tex/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.s
+) (./ylab_thesis.sty) (c:/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.s
 ty
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip48
-\f@nch@O@elh=\skip49
-\f@nch@O@erh=\skip50
-\f@nch@O@olh=\skip51
-\f@nch@O@orh=\skip52
-\f@nch@O@elf=\skip53
-\f@nch@O@erf=\skip54
-\f@nch@O@olf=\skip55
-\f@nch@O@orf=\skip56
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
+\fancy@headwidth=\skip48
+\f@ncyO@elh=\skip49
+\f@ncyO@erh=\skip50
+\f@ncyO@olh=\skip51
+\f@ncyO@orh=\skip52
+\f@ncyO@elf=\skip53
+\f@ncyO@erf=\skip54
+\f@ncyO@olf=\skip55
+\f@ncyO@orf=\skip56
 )
-(c:/w32tex/share/texmf-dist/tex/latex/here/here.sty)
-(c:/w32tex/share/texmf-dist/tex/latex/float/float.sty
+(c:/texlive/2017/texmf-dist/tex/latex/here/here.sty)
+(c:/texlive/2017/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count107
 \float@exts=\toks22
+<<<<<<< HEAD
 \float@box=\box53
 \@float@everytoks=\toks23
 \@floatcapt=\box54
+=======
+\float@box=\box51
+\@float@everytoks=\toks23
+\@floatcapt=\box52
+>>>>>>> origin/03_CIB
 )
-(c:/w32tex/share/texmf-dist/tex/latex/url/url.sty
+(c:/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+<<<<<<< HEAD
 (c:/w32tex/share/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/03/24 v5.7 Page Geometry
 
 (c:/w32tex/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+=======
+(c:/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+>>>>>>> origin/03_CIB
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-(c:/w32tex/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(c:/w32tex/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(c:/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count108
@@ -213,6 +267,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen145
 \Gm@layoutvoffset=\dimen146
 \Gm@dimlist=\toks24
+<<<<<<< HEAD
 
 (c:/w32tex/share/texmf-dist/tex/latex/geometry/geometry.cfg)) (./å ±å‘Šæ›¸.aux
 (./title.aux) (./01.aux) (./02.aux) (./03.aux) (./04.aux
@@ -252,6 +307,30 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
+=======
+) (./•ñ‘.aux
+(./title.aux) (./01.aux) (./02.aux) (./03.aux) (./04.aux) (./05.aux) (./06.aux)
+(./07.aux) (./08.aux) (./09.aux) (./10.aux) (./11.aux) (./12.aux) (./13.aux)
+(./91_bibliography.aux) (./92_appendix.aux) (./90_acknowledgment.aux))
+\openout1 = `•ñ‘.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+>>>>>>> origin/03_CIB
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
@@ -295,12 +374,12 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 9.
 LaTeX Font Info:    Try loading font information for U+msa on input line 19.
- (c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (c:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 19.
 
-(c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+(c:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
@@ -344,6 +423,7 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
 
  (./03.tex
 ç¬¬ 3 ç« 
+<<<<<<< HEAD
 (./03/03_1.tex) (./03/03_2.tex) (./03/03_3.tex) (./03/03_4.tex) (./03/03_5.tex)
 (./03/03_6.tex) (./03/03_7.tex) (./03/03_8.tex) (./03/03_9_1.tex
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
@@ -354,14 +434,80 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (./03/03_9_2_1.tex) (./03/03_9_2_2.tex) (./03/03_9_2_3.tex) (./03/03_9_3_1.tex)
 (./03/03_9_3_2.tex) (./03/03_9_3_3.tex) (./03/03_9_3_4.tex) (./03/03_9_3_5.tex)
 ) [3
+=======
+(./03/03_1.tex) (./03/03_2.tex) (./03/03_3.tex) (./03/03_4.tex
+(./03/03_4_CIB.tex
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 3.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 3.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 3.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 3.
+ [3
+>>>>>>> origin/03_CIB
 
 
 
 ]
+File: 03/fig/3-4-2-1.png Graphic file (type bmp)
+ <03/fig/3-4-2-1.png>
+
+LaTeX Font Warning: Font shape `JT2/mc/m/sl' undefined
+(Font)              using `JT2/mc/m/n' instead on input line 37.
+
+
+LaTeX Font Warning: Font shape `JY2/mc/m/sl' undefined
+(Font)              using `JY2/mc/m/n' instead on input line 37.
+
+[4]
+Overfull \vbox (51.05112pt too high) has occurred while \output is active []
+
+LaTeX Font Info:    Font shape `JT2/mc/m/sl' will be
+(Font)              scaled to size 10.53629pt on input line 37.
+LaTeX Font Info:    Font shape `JY2/mc/m/sl' will be
+(Font)              scaled to size 10.53629pt on input line 37.
+
+[5]
+File: 03/fig/3-4-2-2.jpg Graphic file (type bmp)
+ <03/fig/3-4-2-2.jpg>
+Overfull \hbox (1.41275pt too wide) in paragraph at lines 51--52
+ [][] 
+ []
+
+File: 03/fig/3-4-2-3.jpg Graphic file (type bmp)
+<03/fig/3-4-2-3.jpg>
+Overfull \hbox (34.83012pt too wide) in paragraph at lines 59--60
+ [][] 
+ []
+
+[6] [7]
+Overfull \vbox (28.15393pt too high) has occurred while \output is active []
+
+
+[8]
+File: 03/fig/3-4-2-4.png Graphic file (type bmp)
+ <03/fig/3-4-2-4.png>
+File: 03/fig/3-4-2-5.png Graphic file (type bmp)
+ <03/fig/3-4-2-5.png>
+Overfull \hbox (41.7639pt too wide) in paragraph at lines 78--79
+ [][] 
+ []
+
+[9] [10] [11])) (./03/03_5.tex) (./03/03_6.tex) (./03/03_7.tex) (./03/03_8.tex)
+(./03/03_9_1.tex) (./03/03_9_2_1.tex) (./03/03_9_2_2.tex) (./03/03_9_2_3.tex)
+(./03/03_9_3_1.tex) (./03/03_9_3_2.tex) (./03/03_9_3_3.tex) (./03/03_9_3_4.tex)
+(./03/03_9_3_5.tex)) [12]
 \openout2 = `04.aux'.
 
  (./04.tex
 ç¬¬ 4 ç« 
+<<<<<<< HEAD
 (./04/04_1.tex) (./04/04_2.tex) (./04/04_3.tex
 
 LaTeX Warning: Citation `vibration_test_handbook' on page 4 undefined on input 
@@ -404,6 +550,11 @@ LaTeX Warning: Citation `re_FM_vibration_test_plan' on page 4 undefined on inpu
 t line 3.
 
 [4
+=======
+(./04/04_1.tex) (./04/04_2.tex) (./04/04_3.tex) (./04/04_4.tex) (./04/04_5.tex)
+(./04/04_6.tex) (./04/04_7.tex) (./04/04_8.tex) (./04/04_9.tex) (./04/04_10.tex
+)) [13
+>>>>>>> origin/03_CIB
 
 
 
@@ -590,6 +741,7 @@ LaTeX Warning: Empty `thebibliography' environment on input line 27.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+<<<<<<< HEAD
 
 LaTeX Warning: There were undefined references.
 
@@ -607,3 +759,16 @@ Here is how much of TeX's memory you used:
  31i,10n,43p,676b,326s stack positions out of 5000i,500n,10000p,500000b,80000s
 
 Output written on å ±å‘Šæ›¸.dvi (29 pages, 46752 bytes).
+=======
+ ) 
+Here is how much of TeX's memory you used:
+ 3024 strings out of 493649
+ 36106 string characters out of 6151997
+ 114007 words of memory out of 5000000
+ 6245 multiletter control sequences out of 15000+600000
+ 22719 words of font info for 100 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 37i,11n,43p,964b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on •ñ‘.dvi (28 pages, 42644 bytes).
+>>>>>>> origin/03_CIB
