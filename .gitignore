@@ -7,7 +7,6 @@
 !*.cs
 !*.sln
 
-
 # ignore
 /**/build
 /**/debug
@@ -185,8 +184,11 @@ $RECYCLE.BIN/
 
 # Latex
 *.aux
+*.pdf
 *.dvi
 *.gz
-*.pdf
 *.xbb
 *.bb
+
+# NOT ignore : pdf in top directry
+!/*.pdf
