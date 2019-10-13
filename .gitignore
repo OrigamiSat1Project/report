@@ -189,6 +189,10 @@ $RECYCLE.BIN/
 *.gz
 *.xbb
 *.bb
+*.toc
 
 # NOT ignore : pdf in top directry
 !/*.pdf
+
+# NOT ignore : pdf in /fig
+!**/fig/*.pdf
