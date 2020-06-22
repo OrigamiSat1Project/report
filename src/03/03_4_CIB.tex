@@ -4,6 +4,23 @@
 \subsubsection{基本設計思想}
 CIB(Communication and Inhibit Board)は，イプシロンロケット搭載のためのシステム安全要求(電源のインヒビット機能)を満たすこと，および消費電力の高い5.8GHz送信機の電源系統を別とすることを目的として新規開発を行った基板であり，バッテリとEPSの間に挿入されている．また，VHF/UHFの受信機(RX)/送信機(TX)(西無線301A型)のためのマイコンであるRXPIC(PIC 16F877A)，TXPIC(PIC 16F886)およびモデム回路もCIB上に搭載されている．RXPICはメインOBCより上位にあるものと考え，メインOBCを監視する．RXPIC及びTXPICはWDT(Watch Dog Timer)を用いて異常時には自身へリセットをかける．
 
+\subsubsection{WDT回路}
+タイマーIC SA555を二つ組み合わせることによってWDTをタイムアウトモード（一定期間内にMCUからの信号入力が無い場合，MCUを異常状態とみなしリセット信号を出力するモード）で搭載した．図\ref{fig:wdt}にその回路図を示す．
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\linewidth]{03/fig/wdt.png}
+	\caption{WDT回路図}
+	\label{fig:wdt}
+\end{figure}
+
+前段はMissing-Pulse Detectorとして機能させ，一定時間lowのパルスがMCU（今回はPIC）から送られてこない場合に，再びlowが来るまでOUTピンからlowを出力する．
+後段はMono-stable Operationとして機能し，前段からのlow信号が入力されたら一定時間highを出力する．
+これら二つ組み合わせることによって，MCUからLowがある一定秒送られなかった（MCUが動作停止した）場合に，後段がまた別の一定秒High信号を送ることができる．後段のOUTピンによってPICのMCLRを一定時間GNDに落とし復帰させればPICのリセットがかかる．
+
+前段のTRIGピンがプルアップされているのは，MCUからの信号がlowで固定されてしまった故障モードにおいても次第にhighにすることでエラーを検知するためである．
+
+
 \subsubsection{プログラム概要}
 \paragraph{RXPIC役割}\label{par:RXPIC役割}
 RXPICの持つ主要機能は大きく分けて以下のものがある．RXPICの各機能詳細は\ref{subsubsec:RXPIC詳細}参照．
