@@ -1,10 +1,10 @@
-\subsubsection{薄膜太陽電池ミッション（大野）}
+\subsubsection{薄膜太陽電池ミッション（大野・坂本）}
 薄膜太陽電池ミッションは，多機能膜展開ミッションの一つであり，展開膜上に配置された薄膜太陽電池の発電量を評価することを目的とする．要求としては，
 \begin{itemize}
 	\item 多機能膜展開後，I-V特性を測定する
 	\item 薄膜太陽電池の温度を測定する
 \end{itemize}
-ということがあげられる．本稿では，FMでの設計・制作方法を記する．
+ということがあげられる．
 
 \subsubsection*{薄膜太陽電池の設計}
 \begin{figure}[H]
@@ -15,8 +15,33 @@
 \end{figure}
 FMの薄膜太陽電池の配置図を図\ref{fig3-9-3-1}に示す．薄膜太陽電池は両端に電極があり，そこにフレキシブル導電糸をリベットで固定し，MDCへと接続している．サーミスタ（103JT-025，SEMITEC）は，薄膜太陽電池の裏側に配置している．設計の方針として，接着成分を膜上に載せないことがあげられる．これは，サカセさんからの要求であり，展開に影響がある可能性があるからである．
 
+\subsubsection*{太陽電池IV特性}
+CIGS太陽電池については，JAXAソーラーセイルWGがOKEANOSミッションへの搭載を検討する目的で購入したものを宇宙科学研究所の太陽電池を扱うグループに3つに切断していただいて東工大へ送っていただいた（2016年12月30日）．
+東工大へ送付前に，宇宙科学研究所にてIV特性およびElectroluminescenceの計測をして下さった．
+東工大でも2018年6月3日に，松永研のソーラーシミュレータを用いて薄膜太陽電池のIV特性を計測した．
+	\begin{figure}[H]
+	\begin{tabular}{cc}
+		\begin{minipage}[t]{0.5\hsize}
+			\centering
+			\includegraphics[width=1\textwidth]{03/fig/3-9-3-12.jpg}
+		\end{minipage} &
+		
+		\begin{minipage}[t]{0.5\hsize}
+			\centering
+			\includegraphics[width=1\textwidth]{03/fig/3-9-3-13.png}
+		\end{minipage}
+	\end{tabular}	
+			\caption{JAXAソーラーセイルWGによる薄膜太陽電池の切断}
+\label{fig3-9-3-12}
+\end{figure}
+\begin{figure}[h]
+			\centering
+			\includegraphics[width=.5\textwidth]{03/fig/3-9-3-14.jpg}
+	\caption{薄膜太陽電池のIV特性計測＠東工大（2018年6月3日）}
+	\label{fig3-9-3-14}
+\end{figure}
+
 \subsubsection*{各要素の選定過程}
-私は途中から担当となったので，私が行ったものについてのみの記載です．
 \begin{itemize}
 	\item [\textbf{サーミスタの配置}]
 	サーミスタ自体はもともと本衛星の別の箇所で使用していたものを使用した．したがって，ここでは配置についてのみ記述する．要求する値は，発電する表温度である．
@@ -38,8 +63,7 @@ FMの薄膜太陽電池の配置図を図\ref{fig3-9-3-1}に示す．薄膜太�
 	2つ目は展開膜の折り目に沿って配線することである．折り目に沿わせることで，展開時に阻害しないようになる．
 \end{itemize}
 
-
-\subsubsection*{薄膜太陽電池の制作方法}
+\subsubsection*{薄膜太陽電池の製作方法}
 ここでは，FM展開膜の最終組立工程を記述する．\\
 用意するもの:
 薄膜太陽電池×2，　サーミスタ×2，　フレキシブル導電糸×8（薄膜太陽電池用×4，サーミスタ用×4：それぞれの長さは，展開膜上に配置し決定する），　ねじ固定用具（PEEKねじM2×4，電極，M2ナット）×4
