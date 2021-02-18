@@ -1,0 +1,9 @@
+\begin{thebibliography}{1}
+\newcommand{\enquote}[1]{``#1''}
+
+\bibitem{Tanak15acta}
+Tanaka, T., Kawamura, Y., and Tanaka, T., \enquote{Development and Operations
+  of Nano-satellite {FITSAT}-1 ({NIWAKA}),} {\em Acta Astronautica\/},
+  Vol.~107, 2015, pp.~112--129.
+
+\end{thebibliography}
