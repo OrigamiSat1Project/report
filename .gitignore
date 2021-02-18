@@ -184,7 +184,7 @@ $RECYCLE.BIN/
 
 # Latex
 *.aux
-*.pdf
+# *.pdf
 *.dvi
 *.gz
 *.xbb
